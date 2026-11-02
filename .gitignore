@@ -1,0 +1,12 @@
+# Specificatie proiect PBD
+docs/Proiect PBD 2026.pdf
+*Proiect PBD 2026*.pdf
+
+# Fisiere temporare Microsoft Office / Word
+~$*.docx
+*_backup.docx
+
+# Python cache / bytecode
+__pycache__/
+*.pyc
+

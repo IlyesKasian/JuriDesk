@@ -1,0 +1,482 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="model-logic-juridesk" name="Model Logic">
+    <mxGraphModel dx="3293" dy="1822" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="table_CONTACT_CLIENT" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=28;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=12;fontColor=#000000;swimlaneFillColor=#ffffff;strokeWidth=1;" value="CONTACT_CLIENT" vertex="1">
+          <mxGeometry height="138" width="230" x="1070" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="col_CONTACT_CLIENT_0" parent="table_CONTACT_CLIENT" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;" value="&lt;b&gt;PK&lt;/b&gt;&amp;nbsp;&amp;nbsp;id_contact : &lt;i&gt;INT&lt;/i&gt;" vertex="1">
+          <mxGeometry height="22" width="230" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="col_CONTACT_CLIENT_1" parent="table_CONTACT_CLIENT" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;" value="&lt;b&gt;FK&lt;/b&gt;&amp;nbsp;&amp;nbsp;id_client : &lt;i&gt;INT&lt;/i&gt;" vertex="1">
+          <mxGeometry height="22" width="230" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="col_CONTACT_CLIENT_2" parent="table_CONTACT_CLIENT" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;tip_contact : &lt;i&gt;VARCHAR&lt;/i&gt;" vertex="1">
+          <mxGeometry height="22" width="230" y="72" as="geometry" />
+        </mxCell>
+        <mxCell id="col_CONTACT_CLIENT_3" parent="table_CONTACT_CLIENT" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;valoare : &lt;i&gt;VARCHAR&lt;/i&gt;" vertex="1">
+          <mxGeometry height="22" width="230" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="col_CONTACT_CLIENT_4" parent="table_CONTACT_CLIENT" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;principal : &lt;i&gt;BOOLEAN&lt;/i&gt;" vertex="1">
+          <mxGeometry height="22" width="230" y="116" as="geometry" />
+        </mxCell>
+        <mxCell id="table_CLIENT" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=28;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=12;fontColor=#000000;swimlaneFillColor=#ffffff;strokeWidth=1;" value="CLIENT" vertex="1">
+          <mxGeometry height="182" width="230" x="650" y="238" as="geometry" />
+        </mxCell>
+        <mxCell id="col_CLIENT_0" parent="table_CLIENT" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;" value="&lt;b&gt;PK&lt;/b&gt;&amp;nbsp;&amp;nbsp;id_client : &lt;i&gt;INT&lt;/i&gt;" vertex="1">
+          <mxGeometry height="22" width="230" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="col_CLIENT_1" parent="table_CLIENT" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;" value="&lt;b&gt;FK&lt;/b&gt;&amp;nbsp;&amp;nbsp;id_utilizator : &lt;i&gt;INT&lt;/i&gt;" vertex="1">
+          <mxGeometry height="22" width="230" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="col_CLIENT_2" parent="table_CLIENT" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;tip_client : &lt;i&gt;VARCHAR&lt;/i&gt;" vertex="1">
+          <mxGeometry height="22" width="230" y="72" as="geometry" />
+        </mxCell>
+        <mxCell id="col_CLIENT_3" parent="table_CLIENT" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;nume_denumire : &lt;i&gt;VARCHAR&lt;/i&gt;" vertex="1">
+          <mxGeometry height="22" width="230" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="col_CLIENT_4" parent="table_CLIENT" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;cnp_cui : &lt;i&gt;VARCHAR&lt;/i&gt;" vertex="1">
+          <mxGeometry height="22" width="230" y="116" as="geometry" />
+        </mxCell>
+        <mxCell id="col_CLIENT_5" parent="table_CLIENT" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;adresa : &lt;i&gt;VARCHAR&lt;/i&gt;" vertex="1">
+          <mxGeometry height="22" width="230" y="138" as="geometry" />
+        </mxCell>
+        <mxCell id="col_CLIENT_6" parent="table_CLIENT" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;data_inregistrare : &lt;i&gt;DATE&lt;/i&gt;" vertex="1">
+          <mxGeometry height="22" width="230" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="table_INSTANTA" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=28;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=12;fontColor=#000000;swimlaneFillColor=#ffffff;strokeWidth=1;" value="INSTANTA" vertex="1">
+          <mxGeometry height="138" width="230" x="-110" y="358" as="geometry" />
+        </mxCell>
+        <mxCell id="col_INSTANTA_0" parent="table_INSTANTA" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;" value="&lt;b&gt;PK&lt;/b&gt;&amp;nbsp;&amp;nbsp;id_instanta : &lt;i&gt;INT&lt;/i&gt;" vertex="1">
+          <mxGeometry height="22" width="230" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="col_INSTANTA_1" parent="table_INSTANTA" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;denumire : &lt;i&gt;VARCHAR&lt;/i&gt;" vertex="1">
+          <mxGeometry height="22" width="230" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="col_INSTANTA_2" parent="table_INSTANTA" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;tip_instanta : &lt;i&gt;VARCHAR&lt;/i&gt;" vertex="1">
+          <mxGeometry height="22" width="230" y="72" as="geometry" />
+        </mxCell>
+        <mxCell id="col_INSTANTA_3" parent="table_INSTANTA" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;localitate : &lt;i&gt;VARCHAR&lt;/i&gt;" vertex="1">
+          <mxGeometry height="22" width="230" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="col_INSTANTA_4" parent="table_INSTANTA" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;adresa : &lt;i&gt;VARCHAR&lt;/i&gt;" vertex="1">
+          <mxGeometry height="22" width="230" y="116" as="geometry" />
+        </mxCell>
+        <mxCell id="table_DOSAR" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=28;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=12;fontColor=#000000;swimlaneFillColor=#ffffff;strokeWidth=1;" value="DOSAR" vertex="1">
+          <mxGeometry height="226" width="240" x="40" as="geometry" />
+        </mxCell>
+        <mxCell id="col_DOSAR_0" parent="table_DOSAR" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;" value="&lt;b&gt;PK&lt;/b&gt;&amp;nbsp;&amp;nbsp;id_dosar : &lt;i&gt;INT&lt;/i&gt;" vertex="1">
+          <mxGeometry height="22" width="240" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="col_DOSAR_1" parent="table_DOSAR" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;" value="&lt;b&gt;FK&lt;/b&gt;&amp;nbsp;&amp;nbsp;id_client : &lt;i&gt;INT&lt;/i&gt;" vertex="1">
+          <mxGeometry height="22" width="240" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="col_DOSAR_2" parent="table_DOSAR" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;" value="&lt;b&gt;FK&lt;/b&gt;&amp;nbsp;&amp;nbsp;id_instanta : &lt;i&gt;INT&lt;/i&gt;" vertex="1">
+          <mxGeometry height="22" width="240" y="72" as="geometry" />
+        </mxCell>
+        <mxCell id="col_DOSAR_3" parent="table_DOSAR" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;numar_dosar : &lt;i&gt;VARCHAR&lt;/i&gt;" vertex="1">
+          <mxGeometry height="22" width="240" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="col_DOSAR_4" parent="table_DOSAR" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;obiect_cauza : &lt;i&gt;VARCHAR&lt;/i&gt;" vertex="1">
+          <mxGeometry height="22" width="240" y="116" as="geometry" />
+        </mxCell>
+        <mxCell id="col_DOSAR_5" parent="table_DOSAR" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;faza_procedurala : &lt;i&gt;VARCHAR&lt;/i&gt;" vertex="1">
+          <mxGeometry height="22" width="240" y="138" as="geometry" />
+        </mxCell>
+        <mxCell id="col_DOSAR_6" parent="table_DOSAR" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;stare : &lt;i&gt;VARCHAR&lt;/i&gt;" vertex="1">
+          <mxGeometry height="22" width="240" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="col_DOSAR_7" parent="table_DOSAR" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;data_deschidere : &lt;i&gt;DATE&lt;/i&gt;" vertex="1">
+          <mxGeometry height="22" width="240" y="182" as="geometry" />
+        </mxCell>
+        <mxCell id="col_DOSAR_8" parent="table_DOSAR" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;data_inchidere : &lt;i&gt;DATE&lt;/i&gt;" vertex="1">
+          <mxGeometry height="22" width="240" y="204" as="geometry" />
+        </mxCell>
+        <mxCell id="table_FACTURA" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=28;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=12;fontColor=#000000;swimlaneFillColor=#ffffff;strokeWidth=1;" value="FACTURA" vertex="1">
+          <mxGeometry height="160" width="240" x="290" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="col_FACTURA_0" parent="table_FACTURA" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;" value="&lt;b&gt;PK&lt;/b&gt;&amp;nbsp;&amp;nbsp;id_factura : &lt;i&gt;INT&lt;/i&gt;" vertex="1">
+          <mxGeometry height="22" width="240" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="col_FACTURA_1" parent="table_FACTURA" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;" value="&lt;b&gt;FK&lt;/b&gt;&amp;nbsp;&amp;nbsp;id_dosar : &lt;i&gt;INT&lt;/i&gt;" vertex="1">
+          <mxGeometry height="22" width="240" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="col_FACTURA_2" parent="table_FACTURA" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;numar_factura : &lt;i&gt;VARCHAR&lt;/i&gt;" vertex="1">
+          <mxGeometry height="22" width="240" y="72" as="geometry" />
+        </mxCell>
+        <mxCell id="col_FACTURA_3" parent="table_FACTURA" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;data_emitere : &lt;i&gt;DATE&lt;/i&gt;" vertex="1">
+          <mxGeometry height="22" width="240" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="col_FACTURA_4" parent="table_FACTURA" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;suma_totala : &lt;i&gt;DECIMAL&lt;/i&gt;" vertex="1">
+          <mxGeometry height="22" width="240" y="116" as="geometry" />
+        </mxCell>
+        <mxCell id="col_FACTURA_5" parent="table_FACTURA" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;stare : &lt;i&gt;VARCHAR&lt;/i&gt;" vertex="1">
+          <mxGeometry height="22" width="240" y="138" as="geometry" />
+        </mxCell>
+        <mxCell id="table_DOSAR_AVOCAT" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=28;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=12;fontColor=#000000;swimlaneFillColor=#ffffff;strokeWidth=1;" value="DOSAR_AVOCAT" vertex="1">
+          <mxGeometry height="116" width="230" x="290" y="-310" as="geometry" />
+        </mxCell>
+        <mxCell id="col_DOSAR_AVOCAT_0" parent="table_DOSAR_AVOCAT" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;" value="&lt;b&gt;PK, FK&lt;/b&gt;&amp;nbsp;&amp;nbsp;id_dosar : &lt;i&gt;INT&lt;/i&gt;" vertex="1">
+          <mxGeometry height="22" width="230" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="col_DOSAR_AVOCAT_1" parent="table_DOSAR_AVOCAT" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;" value="&lt;b&gt;PK, FK&lt;/b&gt;&amp;nbsp;&amp;nbsp;id_avocat : &lt;i&gt;INT&lt;/i&gt;" vertex="1">
+          <mxGeometry height="22" width="230" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="col_DOSAR_AVOCAT_2" parent="table_DOSAR_AVOCAT" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;rol_in_dosar : &lt;i&gt;VARCHAR&lt;/i&gt;" vertex="1">
+          <mxGeometry height="22" width="230" y="72" as="geometry" />
+        </mxCell>
+        <mxCell id="col_DOSAR_AVOCAT_3" parent="table_DOSAR_AVOCAT" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;data_asociere : &lt;i&gt;DATE&lt;/i&gt;" vertex="1">
+          <mxGeometry height="22" width="230" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="table_TERMEN" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=28;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=12;fontColor=#000000;swimlaneFillColor=#ffffff;strokeWidth=1;" value="TERMEN" vertex="1">
+          <mxGeometry height="182" width="230" x="970" y="-194" as="geometry" />
+        </mxCell>
+        <mxCell id="col_TERMEN_0" parent="table_TERMEN" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;" value="&lt;b&gt;PK&lt;/b&gt;&amp;nbsp;&amp;nbsp;id_termen : &lt;i&gt;INT&lt;/i&gt;" vertex="1">
+          <mxGeometry height="22" width="230" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="col_TERMEN_1" parent="table_TERMEN" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;" value="&lt;b&gt;FK&lt;/b&gt;&amp;nbsp;&amp;nbsp;id_dosar : &lt;i&gt;INT&lt;/i&gt;" vertex="1">
+          <mxGeometry height="22" width="230" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="col_TERMEN_2" parent="table_TERMEN" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;" value="&lt;b&gt;FK&lt;/b&gt;&amp;nbsp;&amp;nbsp;id_avocat : &lt;i&gt;INT&lt;/i&gt;" vertex="1">
+          <mxGeometry height="22" width="230" y="72" as="geometry" />
+        </mxCell>
+        <mxCell id="col_TERMEN_3" parent="table_TERMEN" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;data_termen : &lt;i&gt;DATETIME&lt;/i&gt;" vertex="1">
+          <mxGeometry height="22" width="230" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="col_TERMEN_4" parent="table_TERMEN" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;tip_termen : &lt;i&gt;VARCHAR&lt;/i&gt;" vertex="1">
+          <mxGeometry height="22" width="230" y="116" as="geometry" />
+        </mxCell>
+        <mxCell id="col_TERMEN_5" parent="table_TERMEN" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;descriere : &lt;i&gt;TEXT&lt;/i&gt;" vertex="1">
+          <mxGeometry height="22" width="230" y="138" as="geometry" />
+        </mxCell>
+        <mxCell id="col_TERMEN_6" parent="table_TERMEN" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;stare : &lt;i&gt;VARCHAR&lt;/i&gt;" vertex="1">
+          <mxGeometry height="22" width="230" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="table_INTALNIRE" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=28;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=12;fontColor=#000000;swimlaneFillColor=#ffffff;strokeWidth=1;" value="INTALNIRE" vertex="1">
+          <mxGeometry height="160" width="230" x="570" y="-190" as="geometry" />
+        </mxCell>
+        <mxCell id="col_INTALNIRE_0" parent="table_INTALNIRE" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;" value="&lt;b&gt;PK&lt;/b&gt;&amp;nbsp;&amp;nbsp;id_intalnire : &lt;i&gt;INT&lt;/i&gt;" vertex="1">
+          <mxGeometry height="22" width="230" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="col_INTALNIRE_1" parent="table_INTALNIRE" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;" value="&lt;b&gt;FK&lt;/b&gt;&amp;nbsp;&amp;nbsp;id_dosar : &lt;i&gt;INT&lt;/i&gt;" vertex="1">
+          <mxGeometry height="22" width="230" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="col_INTALNIRE_2" parent="table_INTALNIRE" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;" value="&lt;b&gt;FK&lt;/b&gt;&amp;nbsp;&amp;nbsp;id_avocat : &lt;i&gt;INT&lt;/i&gt;" vertex="1">
+          <mxGeometry height="22" width="230" y="72" as="geometry" />
+        </mxCell>
+        <mxCell id="col_INTALNIRE_3" parent="table_INTALNIRE" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;data_intalnire : &lt;i&gt;DATETIME&lt;/i&gt;" vertex="1">
+          <mxGeometry height="22" width="230" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="col_INTALNIRE_4" parent="table_INTALNIRE" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;locatie : &lt;i&gt;VARCHAR&lt;/i&gt;" vertex="1">
+          <mxGeometry height="22" width="230" y="116" as="geometry" />
+        </mxCell>
+        <mxCell id="col_INTALNIRE_5" parent="table_INTALNIRE" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;subiect : &lt;i&gt;VARCHAR&lt;/i&gt;" vertex="1">
+          <mxGeometry height="22" width="230" y="138" as="geometry" />
+        </mxCell>
+        <mxCell id="table_DOCUMENT" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=28;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=12;fontColor=#000000;swimlaneFillColor=#ffffff;strokeWidth=1;" value="DOCUMENT" vertex="1">
+          <mxGeometry height="182" width="230" x="640" y="468" as="geometry" />
+        </mxCell>
+        <mxCell id="col_DOCUMENT_0" parent="table_DOCUMENT" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;" value="&lt;b&gt;PK&lt;/b&gt;&amp;nbsp;&amp;nbsp;id_document : &lt;i&gt;INT&lt;/i&gt;" vertex="1">
+          <mxGeometry height="22" width="230" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="col_DOCUMENT_1" parent="table_DOCUMENT" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;" value="&lt;b&gt;FK&lt;/b&gt;&amp;nbsp;&amp;nbsp;id_dosar : &lt;i&gt;INT&lt;/i&gt;" vertex="1">
+          <mxGeometry height="22" width="230" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="col_DOCUMENT_2" parent="table_DOCUMENT" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;" value="&lt;b&gt;FK&lt;/b&gt;&amp;nbsp;&amp;nbsp;id_utilizator : &lt;i&gt;INT&lt;/i&gt;" vertex="1">
+          <mxGeometry height="22" width="230" y="72" as="geometry" />
+        </mxCell>
+        <mxCell id="col_DOCUMENT_3" parent="table_DOCUMENT" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;denumire : &lt;i&gt;VARCHAR&lt;/i&gt;" vertex="1">
+          <mxGeometry height="22" width="230" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="col_DOCUMENT_4" parent="table_DOCUMENT" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;tip_document : &lt;i&gt;VARCHAR&lt;/i&gt;" vertex="1">
+          <mxGeometry height="22" width="230" y="116" as="geometry" />
+        </mxCell>
+        <mxCell id="col_DOCUMENT_5" parent="table_DOCUMENT" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;cale_fisier : &lt;i&gt;VARCHAR&lt;/i&gt;" vertex="1">
+          <mxGeometry height="22" width="230" y="138" as="geometry" />
+        </mxCell>
+        <mxCell id="col_DOCUMENT_6" parent="table_DOCUMENT" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;data_incarcare : &lt;i&gt;DATETIME&lt;/i&gt;" vertex="1">
+          <mxGeometry height="22" width="230" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="table_AVOCAT" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=28;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=12;fontColor=#000000;swimlaneFillColor=#ffffff;strokeWidth=1;" value="AVOCAT" vertex="1">
+          <mxGeometry height="116" width="230" x="770" y="-410" as="geometry" />
+        </mxCell>
+        <mxCell id="col_AVOCAT_0" parent="table_AVOCAT" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;" value="&lt;b&gt;PK&lt;/b&gt;&amp;nbsp;&amp;nbsp;id_avocat : &lt;i&gt;INT&lt;/i&gt;" vertex="1">
+          <mxGeometry height="22" width="230" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="col_AVOCAT_1" parent="table_AVOCAT" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;" value="&lt;b&gt;FK&lt;/b&gt;&amp;nbsp;&amp;nbsp;id_utilizator : &lt;i&gt;INT&lt;/i&gt;" vertex="1">
+          <mxGeometry height="22" width="230" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="col_AVOCAT_2" parent="table_AVOCAT" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;specializare : &lt;i&gt;VARCHAR&lt;/i&gt;" vertex="1">
+          <mxGeometry height="22" width="230" y="72" as="geometry" />
+        </mxCell>
+        <mxCell id="col_AVOCAT_3" parent="table_AVOCAT" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;data_angajare : &lt;i&gt;DATE&lt;/i&gt;" vertex="1">
+          <mxGeometry height="22" width="230" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="table_UTILIZATOR" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=28;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=12;fontColor=#000000;swimlaneFillColor=#ffffff;strokeWidth=1;" value="UTILIZATOR" vertex="1">
+          <mxGeometry height="204" width="240" x="1260" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="col_UTILIZATOR_0" parent="table_UTILIZATOR" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;" value="&lt;b&gt;PK&lt;/b&gt;&amp;nbsp;&amp;nbsp;id_utilizator : &lt;i&gt;INT&lt;/i&gt;" vertex="1">
+          <mxGeometry height="22" width="240" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="col_UTILIZATOR_1" parent="table_UTILIZATOR" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;nume : &lt;i&gt;VARCHAR&lt;/i&gt;" vertex="1">
+          <mxGeometry height="22" width="240" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="col_UTILIZATOR_2" parent="table_UTILIZATOR" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;prenume : &lt;i&gt;VARCHAR&lt;/i&gt;" vertex="1">
+          <mxGeometry height="22" width="240" y="72" as="geometry" />
+        </mxCell>
+        <mxCell id="col_UTILIZATOR_3" parent="table_UTILIZATOR" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;email : &lt;i&gt;VARCHAR&lt;/i&gt;" vertex="1">
+          <mxGeometry height="22" width="240" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="col_UTILIZATOR_4" parent="table_UTILIZATOR" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;telefon : &lt;i&gt;VARCHAR&lt;/i&gt;" vertex="1">
+          <mxGeometry height="22" width="240" y="116" as="geometry" />
+        </mxCell>
+        <mxCell id="col_UTILIZATOR_5" parent="table_UTILIZATOR" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;rol : &lt;i&gt;VARCHAR&lt;/i&gt;" vertex="1">
+          <mxGeometry height="22" width="240" y="138" as="geometry" />
+        </mxCell>
+        <mxCell id="col_UTILIZATOR_6" parent="table_UTILIZATOR" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;parola_hash : &lt;i&gt;VARCHAR&lt;/i&gt;" vertex="1">
+          <mxGeometry height="22" width="240" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="col_UTILIZATOR_7" parent="table_UTILIZATOR" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;activ : &lt;i&gt;BOOLEAN&lt;/i&gt;" vertex="1">
+          <mxGeometry height="22" width="240" y="182" as="geometry" />
+        </mxCell>
+        <mxCell id="table_PLATA" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=28;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=12;fontColor=#000000;swimlaneFillColor=#ffffff;strokeWidth=1;" value="PLATA" vertex="1">
+          <mxGeometry height="160" width="240" x="900" y="668" as="geometry" />
+        </mxCell>
+        <mxCell id="col_PLATA_0" parent="table_PLATA" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;" value="&lt;b&gt;PK&lt;/b&gt;&amp;nbsp;&amp;nbsp;id_plata : &lt;i&gt;INT&lt;/i&gt;" vertex="1">
+          <mxGeometry height="22" width="240" y="28" as="geometry" />
+        </mxCell>
+        <mxCell id="col_PLATA_1" parent="table_PLATA" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;" value="&lt;b&gt;FK&lt;/b&gt;&amp;nbsp;&amp;nbsp;id_factura : &lt;i&gt;INT&lt;/i&gt;" vertex="1">
+          <mxGeometry height="22" width="240" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="col_PLATA_2" parent="table_PLATA" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;" value="&lt;b&gt;FK&lt;/b&gt;&amp;nbsp;&amp;nbsp;id_utilizator : &lt;i&gt;INT&lt;/i&gt;" vertex="1">
+          <mxGeometry height="22" width="240" y="72" as="geometry" />
+        </mxCell>
+        <mxCell id="col_PLATA_3" parent="table_PLATA" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;data_plata : &lt;i&gt;DATETIME&lt;/i&gt;" vertex="1">
+          <mxGeometry height="22" width="240" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="col_PLATA_4" parent="table_PLATA" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;suma_platita : &lt;i&gt;DECIMAL&lt;/i&gt;" vertex="1">
+          <mxGeometry height="22" width="240" y="116" as="geometry" />
+        </mxCell>
+        <mxCell id="col_PLATA_5" parent="table_PLATA" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontColor=#000000;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;metoda_plata : &lt;i&gt;VARCHAR&lt;/i&gt;" vertex="1">
+          <mxGeometry height="22" width="240" y="138" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_r_client_contact" edge="1" parent="1" source="table_CLIENT" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontSize=11;fontColor=#000000;endArrow=none;endFill=0;defaultLabelBackgroundColor=page;jumpStyle=arc;" target="table_CONTACT_CLIENT" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lbl_p_r_client_contact" connectable="0" parent="edge_r_client_contact" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;inheritText=1;defaultLabelBackgroundColor=page;fontSize=11;fontColor=#000000;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-0.85" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lbl_c_r_client_contact" connectable="0" parent="edge_r_client_contact" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;inheritText=1;defaultLabelBackgroundColor=page;fontSize=11;fontColor=#000000;" value="N" vertex="1">
+          <mxGeometry relative="1" x="0.85" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_r_client_dosar" edge="1" parent="1" source="table_CLIENT" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontSize=11;fontColor=#000000;endArrow=none;endFill=0;defaultLabelBackgroundColor=page;entryX=1.007;entryY=0.163;entryDx=0;entryDy=0;entryPerimeter=0;jumpStyle=arc;" target="col_DOSAR_7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lbl_p_r_client_dosar" connectable="0" parent="edge_r_client_dosar" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;inheritText=1;defaultLabelBackgroundColor=page;fontSize=11;fontColor=#000000;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-0.8432" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lbl_c_r_client_dosar" connectable="0" parent="edge_r_client_dosar" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;inheritText=1;defaultLabelBackgroundColor=page;fontSize=11;fontColor=#000000;" value="N" vertex="1">
+          <mxGeometry relative="1" x="0.85" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_r_instanta_dosar" edge="1" parent="1" source="table_INSTANTA" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontSize=11;fontColor=#000000;endArrow=none;endFill=0;defaultLabelBackgroundColor=page;entryX=0.178;entryY=1.036;entryDx=0;entryDy=0;entryPerimeter=0;jumpStyle=arc;" target="col_DOSAR_8" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lbl_p_r_instanta_dosar" connectable="0" parent="edge_r_instanta_dosar" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;inheritText=1;defaultLabelBackgroundColor=page;fontSize=11;fontColor=#000000;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-0.7894" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lbl_c_r_instanta_dosar" connectable="0" parent="edge_r_instanta_dosar" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;inheritText=1;defaultLabelBackgroundColor=page;fontSize=11;fontColor=#000000;" value="N" vertex="1">
+          <mxGeometry relative="1" x="0.85" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_r_dosar_da" edge="1" parent="1" source="table_DOSAR" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontSize=11;fontColor=#000000;endArrow=none;endFill=0;defaultLabelBackgroundColor=page;exitX=0.5;exitY=0;exitDx=0;exitDy=0;jumpStyle=arc;" target="table_DOSAR_AVOCAT" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lbl_p_r_dosar_da" connectable="0" parent="edge_r_dosar_da" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;inheritText=1;defaultLabelBackgroundColor=page;fontSize=11;fontColor=#000000;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-0.85" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lbl_c_r_dosar_da" connectable="0" parent="edge_r_dosar_da" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;inheritText=1;defaultLabelBackgroundColor=page;fontSize=11;fontColor=#000000;" value="N" vertex="1">
+          <mxGeometry relative="1" x="0.8542" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_r_avocat_da" edge="1" parent="1" source="table_AVOCAT" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontSize=11;fontColor=#000000;endArrow=none;endFill=0;defaultLabelBackgroundColor=page;jumpStyle=arc;" target="table_DOSAR_AVOCAT" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lbl_p_r_avocat_da" connectable="0" parent="edge_r_avocat_da" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;inheritText=1;defaultLabelBackgroundColor=page;fontSize=11;fontColor=#000000;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-0.85" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lbl_c_r_avocat_da" connectable="0" parent="edge_r_avocat_da" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;inheritText=1;defaultLabelBackgroundColor=page;fontSize=11;fontColor=#000000;" value="N" vertex="1">
+          <mxGeometry relative="1" x="0.85" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_r_dosar_termen" edge="1" parent="1" source="col_DOSAR_0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontSize=11;fontColor=#000000;endArrow=none;endFill=0;defaultLabelBackgroundColor=page;exitX=0.998;exitY=0.891;exitDx=0;exitDy=0;exitPerimeter=0;jumpStyle=arc;" target="table_TERMEN" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lbl_p_r_dosar_termen" connectable="0" parent="edge_r_dosar_termen" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;inheritText=1;defaultLabelBackgroundColor=page;fontSize=11;fontColor=#000000;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-0.85" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lbl_c_r_dosar_termen" connectable="0" parent="edge_r_dosar_termen" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;inheritText=1;defaultLabelBackgroundColor=page;fontSize=11;fontColor=#000000;" value="N" vertex="1">
+          <mxGeometry relative="1" x="0.8274" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_r_avocat_termen" edge="1" parent="1" source="col_AVOCAT_3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontSize=11;fontColor=#000000;endArrow=none;endFill=0;defaultLabelBackgroundColor=page;exitX=0.739;exitY=0.992;exitDx=0;exitDy=0;exitPerimeter=0;jumpStyle=arc;" target="table_TERMEN" value="">
+          <mxGeometry relative="1" x="-0.2236" as="geometry" />
+        </mxCell>
+        <mxCell id="lbl_p_r_avocat_termen" connectable="0" parent="edge_r_avocat_termen" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;inheritText=1;defaultLabelBackgroundColor=page;fontSize=11;fontColor=#000000;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-0.85" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lbl_c_r_avocat_termen" connectable="0" parent="edge_r_avocat_termen" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;inheritText=1;defaultLabelBackgroundColor=page;fontSize=11;fontColor=#000000;" value="N" vertex="1">
+          <mxGeometry relative="1" x="0.8205" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_r_dosar_intalnire" edge="1" parent="1" source="table_DOSAR" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontSize=11;fontColor=#000000;endArrow=none;endFill=0;defaultLabelBackgroundColor=page;jumpStyle=arc;" target="table_INTALNIRE" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lbl_p_r_dosar_intalnire" connectable="0" parent="edge_r_dosar_intalnire" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;inheritText=1;defaultLabelBackgroundColor=page;fontSize=11;fontColor=#000000;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-0.85" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lbl_c_r_dosar_intalnire" connectable="0" parent="edge_r_dosar_intalnire" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;inheritText=1;defaultLabelBackgroundColor=page;fontSize=11;fontColor=#000000;" value="N" vertex="1">
+          <mxGeometry relative="1" x="0.85" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_r_avocat_intalnire" edge="1" parent="1" source="col_AVOCAT_3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontSize=11;fontColor=#000000;endArrow=none;endFill=0;defaultLabelBackgroundColor=page;exitX=0.214;exitY=0.962;exitDx=0;exitDy=0;exitPerimeter=0;jumpStyle=arc;" target="table_INTALNIRE" value="">
+          <mxGeometry relative="1" x="-0.2718" as="geometry" />
+        </mxCell>
+        <mxCell id="lbl_p_r_avocat_intalnire" connectable="0" parent="edge_r_avocat_intalnire" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;inheritText=1;defaultLabelBackgroundColor=page;fontSize=11;fontColor=#000000;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-0.85" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lbl_c_r_avocat_intalnire" connectable="0" parent="edge_r_avocat_intalnire" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;inheritText=1;defaultLabelBackgroundColor=page;fontSize=11;fontColor=#000000;" value="N" vertex="1">
+          <mxGeometry relative="1" x="0.8076" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_r_dosar_document" edge="1" parent="1" source="col_DOSAR_6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontSize=11;fontColor=#000000;endArrow=none;endFill=0;defaultLabelBackgroundColor=page;entryX=-0.001;entryY=0.307;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.999;exitY=0.218;exitDx=0;exitDy=0;exitPerimeter=0;jumpStyle=arc;" target="col_DOCUMENT_3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lbl_p_r_dosar_document" connectable="0" parent="edge_r_dosar_document" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;inheritText=1;defaultLabelBackgroundColor=page;fontSize=11;fontColor=#000000;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-0.85" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lbl_c_r_dosar_document" connectable="0" parent="edge_r_dosar_document" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;inheritText=1;defaultLabelBackgroundColor=page;fontSize=11;fontColor=#000000;" value="N" vertex="1">
+          <mxGeometry relative="1" x="0.8321" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_r_utilizator_document" edge="1" parent="1" source="col_UTILIZATOR_5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontSize=11;fontColor=#000000;endArrow=none;endFill=0;defaultLabelBackgroundColor=page;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.015;entryY=0.082;entryDx=0;entryDy=0;entryPerimeter=0;jumpStyle=arc;" target="col_DOCUMENT_3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lbl_p_r_utilizator_document" connectable="0" parent="edge_r_utilizator_document" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;inheritText=1;defaultLabelBackgroundColor=page;fontSize=11;fontColor=#000000;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-0.8436" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lbl_c_r_utilizator_document" connectable="0" parent="edge_r_utilizator_document" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;inheritText=1;defaultLabelBackgroundColor=page;fontSize=11;fontColor=#000000;" value="N" vertex="1">
+          <mxGeometry relative="1" x="0.85" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_r_dosar_factura" edge="1" parent="1" source="table_DOSAR" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontSize=11;fontColor=#000000;endArrow=none;endFill=0;defaultLabelBackgroundColor=page;jumpStyle=arc;" target="table_FACTURA" value="">
+          <mxGeometry relative="1" x="-0.2438" as="geometry">
+            <Array as="points">
+              <mxPoint x="410" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lbl_p_r_dosar_factura" connectable="0" parent="edge_r_dosar_factura" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;inheritText=1;defaultLabelBackgroundColor=page;fontSize=11;fontColor=#000000;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-0.85" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lbl_c_r_dosar_factura" connectable="0" parent="edge_r_dosar_factura" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;inheritText=1;defaultLabelBackgroundColor=page;fontSize=11;fontColor=#000000;" value="N" vertex="1">
+          <mxGeometry relative="1" x="0.8137" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_r_factura_plata" edge="1" parent="1" source="table_FACTURA" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontSize=11;fontColor=#000000;endArrow=none;endFill=0;defaultLabelBackgroundColor=page;jumpStyle=arc;" target="table_PLATA" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lbl_p_r_factura_plata" connectable="0" parent="edge_r_factura_plata" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;inheritText=1;defaultLabelBackgroundColor=page;fontSize=11;fontColor=#000000;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-0.85" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lbl_c_r_factura_plata" connectable="0" parent="edge_r_factura_plata" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;inheritText=1;defaultLabelBackgroundColor=page;fontSize=11;fontColor=#000000;" value="N" vertex="1">
+          <mxGeometry relative="1" x="0.85" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_r_utilizator_plata" edge="1" parent="1" source="table_UTILIZATOR" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontSize=11;fontColor=#000000;endArrow=none;endFill=0;defaultLabelBackgroundColor=page;jumpStyle=arc;" target="table_PLATA" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lbl_p_r_utilizator_plata" connectable="0" parent="edge_r_utilizator_plata" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;inheritText=1;defaultLabelBackgroundColor=page;fontSize=11;fontColor=#000000;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-0.85" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lbl_c_r_utilizator_plata" connectable="0" parent="edge_r_utilizator_plata" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;inheritText=1;defaultLabelBackgroundColor=page;fontSize=11;fontColor=#000000;" value="N" vertex="1">
+          <mxGeometry relative="1" x="0.85" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_r_utilizator_avocat" edge="1" parent="1" source="table_UTILIZATOR" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontSize=11;fontColor=#000000;endArrow=none;endFill=0;defaultLabelBackgroundColor=page;exitX=0.554;exitY=-0.002;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.997;entryY=-0.221;entryDx=0;entryDy=0;entryPerimeter=0;jumpStyle=arc;" target="col_AVOCAT_2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lbl_p_r_utilizator_avocat" connectable="0" parent="edge_r_utilizator_avocat" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;inheritText=1;defaultLabelBackgroundColor=page;fontSize=11;fontColor=#000000;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-0.8402" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lbl_c_r_utilizator_avocat" connectable="0" parent="edge_r_utilizator_avocat" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;inheritText=1;defaultLabelBackgroundColor=page;fontSize=11;fontColor=#000000;" value="1" vertex="1">
+          <mxGeometry relative="1" x="0.8534" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_r_utilizator_client" edge="1" parent="1" source="col_UTILIZATOR_2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontSize=11;fontColor=#000000;endArrow=none;endFill=0;defaultLabelBackgroundColor=page;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=-0.012;exitY=0.109;exitDx=0;exitDy=0;exitPerimeter=0;jumpStyle=arc;" target="col_CLIENT_4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lbl_p_r_utilizator_client" connectable="0" parent="edge_r_utilizator_client" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;inheritText=1;defaultLabelBackgroundColor=page;fontSize=11;fontColor=#000000;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-0.8378" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lbl_c_r_utilizator_client" connectable="0" parent="edge_r_utilizator_client" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;inheritText=1;defaultLabelBackgroundColor=page;fontSize=11;fontColor=#000000;" value="0..1" vertex="1">
+          <mxGeometry relative="1" x="0.8359" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
