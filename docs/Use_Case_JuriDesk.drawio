@@ -1,0 +1,106 @@
+<mxfile host="Electron">
+  <diagram id="use-case-juridesk-simplu" name="Diagrama Use Case">
+    <mxGraphModel dx="1321" dy="803" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="950" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sys_boundary" parent="1" style="shape=rect;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1.5;verticalAlign=top;align=center;spacingTop=10;fontStyle=1;fontSize=14;fontColor=#000000;" value="JuriDesk" vertex="1">
+          <mxGeometry height="770" width="580" x="160" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="act_titular" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=11;fontStyle=1;" value="Avocat titular / Admin" vertex="1">
+          <mxGeometry height="85" width="60" x="60" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="act_colaborator" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=11;fontStyle=1;" value="Avocat colaborator" vertex="1">
+          <mxGeometry height="85" width="60" x="820" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="act_admin" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=11;fontStyle=1;" value="Personal administrativ" vertex="1">
+          <mxGeometry height="85" width="60" x="60" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="act_client" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=11;fontStyle=1;" value="Client" vertex="1">
+          <mxGeometry height="85" width="60" x="800" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_login" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1;fontColor=#000000;fontSize=11;fontStyle=0;align=center;" value="Autentificare in sistem" vertex="1">
+          <mxGeometry height="50" width="200" x="380" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_admin_users" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1;fontColor=#000000;fontSize=11;fontStyle=0;align=center;" value="Administrare utilizatori si roluri" vertex="1">
+          <mxGeometry height="50" width="200" x="180" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_clienti" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1;fontColor=#000000;fontSize=11;fontStyle=0;align=center;" value="Gestiune clienti si contacte" vertex="1">
+          <mxGeometry height="50" width="200" x="275" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_dosare" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1;fontColor=#000000;fontSize=11;fontStyle=0;align=center;" value="Deschidere si gestiune dosare" vertex="1">
+          <mxGeometry height="50" width="200" x="375" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_termene" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1;fontColor=#000000;fontSize=11;fontStyle=0;align=center;" value="Programare termene si intalniri" vertex="1">
+          <mxGeometry height="50" width="200" x="260" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_documente" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1;fontColor=#000000;fontSize=11;fontStyle=0;align=center;" value="Incarcare si consultare documente" vertex="1">
+          <mxGeometry height="50" width="200" x="340" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_financiar" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1;fontColor=#000000;fontSize=11;fontStyle=0;align=center;" value="Emitere facturi si incasare plati" vertex="1">
+          <mxGeometry height="50" width="200" x="180" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_portal_dosare" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1;fontColor=#000000;fontSize=11;fontStyle=0;align=center;" value="Consultare dosare si termene proprii" vertex="1">
+          <mxGeometry height="50" width="200" x="510" y="645" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_portal_upload" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;strokeWidth=1;fontColor=#000000;fontSize=11;fontStyle=0;align=center;" value="Depunere acte si dovezi online" vertex="1">
+          <mxGeometry height="50" width="200" x="520" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_assoc_100" edge="1" parent="1" source="act_titular" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" target="uc_login" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_assoc_101" edge="1" parent="1" source="act_titular" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" target="uc_admin_users" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_assoc_102" edge="1" parent="1" source="act_titular" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" target="uc_clienti" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_assoc_103" edge="1" parent="1" source="act_titular" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" target="uc_dosare" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_assoc_104" edge="1" parent="1" source="act_titular" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" target="uc_termene" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_assoc_105" edge="1" parent="1" source="act_titular" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" target="uc_documente" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_assoc_106" edge="1" parent="1" source="act_titular" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" target="uc_financiar" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_assoc_107" edge="1" parent="1" source="act_colaborator" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" target="uc_login" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_assoc_108" edge="1" parent="1" source="act_colaborator" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" target="uc_dosare" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_assoc_110" edge="1" parent="1" source="act_colaborator" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" target="uc_documente" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_assoc_111" edge="1" parent="1" source="act_admin" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" target="uc_login" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_assoc_112" edge="1" parent="1" source="act_admin" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" target="uc_clienti" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_assoc_113" edge="1" parent="1" source="act_admin" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" target="uc_dosare" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_assoc_114" edge="1" parent="1" source="act_admin" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" target="uc_documente" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_assoc_115" edge="1" parent="1" source="act_admin" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" target="uc_financiar" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_assoc_116" edge="1" parent="1" source="act_client" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" target="uc_login" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_assoc_117" edge="1" parent="1" source="act_client" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" target="uc_portal_dosare" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_assoc_118" edge="1" parent="1" source="act_client" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1;" target="uc_portal_upload" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -10,3 +10,6 @@ docs/Proiect PBD 2026.pdf
 __pycache__/
 *.pyc
 
+# Draw.io backup files
+.$*.drawio.bkp
+*.bkp
